@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+}
+
+.introduction, .content, .footer{
+      width: 200px;
+      padding: 20px;
+      margin: 20px auto;
+}
+
+.introduction{
+    background: linear-gradient(to right, rgb(255,255,255), rgb(200,50,10), rgb(100,100,100), rgb(200,100,200), rgb(100,200,150) );
+}
+
+.content{
+      background-color: #cce5ff;
+}
+
+.footer{
+      background-color: rgb(204, 255, 204);
+    }

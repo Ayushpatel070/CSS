@@ -1,0 +1,20 @@
+.navbar{
+    margin-top: 8px;
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+    background-color: cyan;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+a:hover{
+    color: blue;
+    background-color: grey;
+    transition: 0.2s;
+}

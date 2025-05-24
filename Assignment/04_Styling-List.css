@@ -1,0 +1,17 @@
+ol, ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+ol li::before {
+  content: ">";
+  color: red;
+  margin-right: 8px;
+}
+
+ul li::before {
+  content: ">";
+  color: green;
+  margin-right: 8px;
+}
+
