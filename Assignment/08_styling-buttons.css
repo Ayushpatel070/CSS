@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Converted container into flexbox for button come side by side and giving height 100vh for container ocuupy the full height.  */
+
+.container{
+    padding: 50px;
+    background: cyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Now giving differnt colors to all the buttons.  */
+
+.btn.primary {
+    background-color: rgb(61, 61, 241);
+}
+
+.btn.secondary {
+    background-color: gray;
+}
+
+.btn.danger {
+    background-color: rgb(220, 53, 69);
+}
+
+/* Giving some properties to button.  */
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+/* Changing the button background color on it's hover.  */
+
+.btn.primary:hover {
+    background-color: blue;
+}
+
+.btn.secondary:hover {
+    background-color: darkgray;
+}
+
+.btn.danger:hover {
+    background-color: red;
+}

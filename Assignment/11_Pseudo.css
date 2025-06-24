@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Let's Give first basic Styles.  */
+
+body{
+    padding: 40px;
+    background-color: aliceblue;
+    line-height: 1.7;
+}
+
+/* Link styles */
+a{
+    color: rgb(4, 125, 255);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:visited{
+    color: darkgoldenrod;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkorange;
+}
+
+/* ::first-line for paragraph */
+p::first-line {
+    font-weight: bold;
+    color: rgb(245, 18, 18);
+    font-size: 20px;
+}
+
+/* Decorative ::before for headings */
+h1::before {
+    content: "This is added using before.";
+    color: darkorange;
+    font-size: 15px;
+    margin-right: 8px;
+}
+

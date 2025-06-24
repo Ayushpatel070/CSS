@@ -1,0 +1,34 @@
+<!-- 1. Create a simple contact form with fields for name, email, and message. 
+2. In your CSS file:
+o Style each form field with padding, border, and background color. 
+o Style the submit button with a distinct color, padding, and rounded corners. 
+o Add focus effects for input fields. 
+o Center the form on the page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="10_Contact-form.css">
+</head>
+<body>
+<div class="container">
+    <form class="contact-form">
+        <h2>Contact Us</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+</body>
+</html>

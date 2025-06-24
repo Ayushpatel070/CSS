@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    width: 960px;
+    margin: auto;
+}
+
+/* Giving the gallery grid property for image come side by side and using grid-template-columns for 3 x 2 layout.  */
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* On 920px or below width the image layout is 3 x 2.  */
+
+@media(max-width: 920px) {
+    .gallery{
+        grid-template-columns: repeat(3, 200px);
+        gap: 20px;
+    }
+}
+
+/* On 700px or below width the image layout is 2 x 3.  */
+
+@media (max-width: 700px) {
+  .gallery {
+    grid-template-columns: repeat(2, 200px);
+    gap: 15px;
+  }
+}
+
+/* On 470px or below width the image layout is 1 x 6.  */
+
+@media(max-width:470px){
+    .gallery{
+        grid-template-columns: repeat(1, 200px);
+    }
+}

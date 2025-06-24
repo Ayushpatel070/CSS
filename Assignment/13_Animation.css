@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+
+/* The Animated Box. */
+.box{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 153, 220);
+    border-radius: 12px;
+    position: relative;
+    animation: moveColor 4s linear infinite;
+}
+
+/* Using KeyFrames and moving box and changing background color.  */
+@keyframes moveColor {
+    0% {
+        left: 0%;
+        background-color: rgb(54, 153, 220);
+    }
+
+    50% {
+        left: 90%;
+        background-color: blue;
+    }
+
+    100% {
+        left: 0%;
+        background-color: rgb(54, 153, 220);
+    }
+}

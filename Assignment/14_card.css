@@ -1,0 +1,59 @@
+/* Basic Styles. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(215, 225, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 22px;
+    color: rgb(38, 32, 32);
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 19px;
+    color: rgb(33, 186, 33);
+    font-weight: bold;
+}
+
