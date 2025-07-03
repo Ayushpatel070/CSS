@@ -1,0 +1,66 @@
+<!-- 1. Create an HTML page with an image gallery. 
+2. In CSS:
+o Apply a transition effect to each image that changes its scale and adds a shadow when hovered. 
+o Use transform properties to rotate or scale the images. 
+o Ensure the effects are smooth by adding a duration to the transition. -->
+
+<!-- 1. Style the HTML webpage created in Topic 1 by:
+o Adding colors, font styles, and padding/margin to each section. 
+o Experimenting with background colors and borders. 
+2. Create a navigation menu with horizontal and vertical layouts using CSS. -->
+
+<!-- 1. Make your HTML page from Topic 1 responsive by:
+o Using media queries to adjust the layout for mobile screens. 
+o Hiding/showing elements or adjusting font sizes for smaller screens.
+2. Create a simple layout with a sidebar that moves below the main content on screens smaller
+than 768px. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Effects</title>
+    <link rel="stylesheet" href="16_interactive-effects.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <ul class="nav-horizontal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="gallery-section">
+            <h1>My Image Gallery</h1>
+            <div class="gallery">
+            <img class="image" src="Images/image1.jpg" alt="Image" width="200px">
+            <img class="image" src="Images/image2.jpg" alt="image" width="200px">
+            <img class="image" src="Images/image3.jpg" alt="image" width="200px">
+            <img class="image" src="Images/image4.JPG" alt="image" width="200px">
+            <img class="image" src="Images/image5.jpg" alt="image" width="200px">
+            <img class="image" src="Images/image6.jpg" alt="image" width="200px">
+            </div>
+        </div>
+        <div class="nav-vertical">
+            <div class="navbar-toggle"> &#8801;
+                <ul class="navbar-toggle-menu">
+                    <li><a href="#">Side Link 1</a></li>
+                    <li><a href="#">Side Link 2</a></li>
+                    <li><a href="#">Side Link 3</a></li>
+                </ul>
+            </div>
+            <div class="navbar-items">
+            <ul>
+                <li><a href="#">Side Link 1</a></li>
+                <li><a href="#">Side Link 2</a></li>
+                <li><a href="#">Side Link 3</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

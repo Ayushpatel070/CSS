@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container{
+    background: cyan;
+    height: 100vh;
+}
+
+.hero{
+    background: darkgoldenrod;
+    color: white;
+    font-size: 2rem;
+    padding: 3.55rem;
+}
+
+.features{
+    background: black;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.features ul li{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+.contact-us{
+    background: blue;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.contact-us i{
+    font-size: 1.25rem;
+    margin-right: 0.25rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    padding: 0.75rem;
+    line-height: 2.5rem;
+}
+
